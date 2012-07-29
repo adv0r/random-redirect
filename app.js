@@ -14,7 +14,8 @@ console.log("Server running at http://127.0.0.1:8000/");
 
 function getHtmlPage(url)
 {
+	console.log("requested URL : "+url);
 	return 	"<html><head><meta HTTP-EQUIV='REFRESH' content='1; url="+url+"'></head>"+
-			"<body>So long and thanks for all the fish</body></html>";				
+			"<body>So long and thanks for all the fish</body></html>";n				
 }
 
